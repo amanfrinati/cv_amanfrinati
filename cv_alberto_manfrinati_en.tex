@@ -1,0 +1,196 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+\setlength{\makecvtitlenamewidth}{5cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+\usepackage[super,negative]{nth} % where option [super] gives superscript `th' % and option [negative] allows ``st, nd, rd'' suffixes on negative numbers.
+\usepackage{booktabs}
+\usepackage{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Alberto} % Your first name
+\familyname{Manfrinati} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+%\address{via Andrea Mantegna 2}{Ponte San Nicol\`{o} (PD), 35020, Italy}
+\address{}{Noventa Padovana (PD), Italy}
+\mobile{(+39) 327 79 54 456}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{alberto.manfrinati@gmail.com}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+\extrainfo{date of birth \nth{27} May 1989}
+\extrainfo{Nationality Italian}
+%\photo[100pt][0.4pt]{pictures/foto-cv} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Working Skills}
+
+\cvitem{}{Worked on multiplatform, specialy on Windows and Ubuntu}
+\cvitem{SO}{Linux (Ubuntu - Debian - CentOS - OpenEmbedded), Mac OS X, Windows, Android}
+\cvitem{Languages}{\textsc{Typescript}, \textsc{Javascript}, \textsc{PHP5.3+}, \textsc{HTML5}, \textsc{CSS3}, \textsc{C}, \textsc{C\#}, Bash, \textsc{JAVA}, \LaTeX, \textsc{IEC 61131-3} (ST, FBD, LADDER)}
+\cvitem{Framework}{Ruby on Rails, Angular, Node.js. I worked also with Wordpress, .NET}
+\cvitem{Webserver}{Apache, Lighttpd, Ngnix}
+\cvitem{DBMS}{PostgreSQL, MySQL, SQLite}
+\cvitem{Software}{Suite Adobe (InDesign, Photoshop, Illustrator, Premiere Pro), Microsoft Office, Matlab, Labview}
+\cvitem{PLC Software}{Straton, CodeSys}
+
+\cvitem{Communic. skills}{\begin{itemize}\item Team work: I worked in small team to develop PLC programs and a simple Android App.
+		\item Excellent written communication skills: I written many user guides for SENECA's customers.
+	\end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+%\subsection{Vocational}
+%
+%\cventry{2012--Present}{1\textsuperscript{st} Year Analyst}{\textsc{Lehman Brothers}}{Los Angeles}{}{Developed spreadsheets for risk analysis on exotic derivatives on a wide array of commodities (ags, oils, precious and base metals), managed blotter and secondary trades on structured notes, liaised with Middle Office, Sales and Structuring for bookkeeping.
+%\newline{}\newline{}
+%Detailed achievements:
+%\begin{itemize}
+%\item Learned how to make amazing coffee
+%\item Finally determined the reason for \textsc{PC LOAD LETTER}:
+%\begin{itemize}
+%\item Paper jam
+%\item Software issues:
+%\begin{itemize}
+%\item Word not sending the correct data to printer
+%\item Windows trying to print in letter format
+%\end{itemize}
+%\item Coffee spilled inside printer
+%\end{itemize}
+%\item Broke the office record for number of kitten pictures in cubicle
+%\end{itemize}}
+
+%------------------------------------------------
+
+\cventry{10/2015 -- Present}{Service \& Support}{SENECA srl}{}{Padua}{Provide customer support to SENECA's IEC 61131-3 CPU programmable and to SENECA's data acquiring systems. Develop PLC automation software with protocol IEC 61131-3. Design Desktop User Interface with SCADA software for telecontrol system. Develop Web User Interface with open source software for acquiring data.}
+
+\cventry{10/2015 -- 12/2015}{C/PHP Developer}{Click \& Find srl}{}{Genoa/Rome}{Conclusion of thesis work in association with the Ministry of Transport in Rome. Optimize C algorithm to find roads crossed by telecontrolled fuel tanks. Evalute road with higher risk and lower risk. Realtime visualization of calculated result in a web app.}
+
+\cventry{2011 -- 2014}{Designer - IT Manager}{CUSL Nuova Vita Cooperativa Sociale}{}{Padua}{Designer of \textit{Medico Competente Journal} magazine. Small Office IT Manager. Develop shop's website.}
+
+\cventry{2011 -- 2013}{Reception - IT Manager}{University Dormitory Murialdo}{}{Padua}{Receptionist. Small Office IT Manager.}
+
+\cventry{08/2012}{Waiter}{Hotel Planibel Tivigest Hotels \& Resorts}{La Thuile, Valle d'Aosta}{}{}
+
+%------------------------------------------------
+
+\subsection{Miscellaneous}
+
+\cventry{}{Wordpress developer}{}{}{}{Worked as job on call to develop and manteinance Wordpress website. Configured simple SEO. Customed either Wordpress plugins and themes. }
+
+%\cvitem{}{Macelleria F.lli Beghin \textit{www.macelleriabeghin.it}}
+%\cvitem{}{Giovani Ristoratori \textit{www.giovaniristoratori.it}}
+%\cvitem{}{CUSL Nuova Vita Cooperativa Sociale \textit{www.cuslpadova.com}}
+%\cvitem{}{Associazione Culturale Antonio Rosmini \textit{www.rosminipadova.it}}
+%\cvitem{}{Lista universitaria di rappresentanza studentesca Ateneo Studenti %\textit{www.ateneostudentipadova.it}}
+
+\cventry{}{Computer Repair Specialist}{}{}{}{Worked as job on call to solve computer problems by asking customers to turn their computers off and on again. Set up SOHO network, either ethernet or wireless. Can assemble PC from component parts and fault diagnose hardware.}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education and Training}
+
+\cventry{11/2017 -- Today}{Google Developer Challenge Scholarship}{on Udacity}{}{}{\emph{Mobile Web Specialist}} %Final graduation vote 86/110
+
+\cventry{2008 -- 2015}{Bachelor of Computer Engineer}{University of Padua}{}{}{Thesis title \emph{Realtime representation on online map of fuel transported by telecontrol tanks}} %Final graduation vote 86/110
+
+\cventry{2003 -- 2008}{Degree of Computer Expert}{Ferruccio Viola Technical Commerce Institute}{Rovigo}{}{} %Graduation vote 75/100
+
+\cventry{}{\emph{Networking for Home and Small Businesses} Certificate}{Cisco Networking Academy}{}{}{}
+
+\cventry{}{ECDL}{European Computer Driving Licence}{}{}{}
+
+
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Personal skills}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\cvitem{Mother tongue}{Italian}{}
+\cvitem{Other languages}{
+\begin{tabularx}{0.85\columnwidth}{XXXXXX}
+	\toprule
+	& \multicolumn{2}{c}{\textbf{Understanding}} & \multicolumn{2}{c}{\textbf{Speaking}} & \textbf{Writing} \\
+	& Listening & Reading & Interaction & Production & \\
+	\midrule
+	English & B1 & B1 & B1 & B1 & B1 \\
+	French  & A1 & A1 & A1 & A1 & A1 \\
+	\bottomrule
+\end{tabularx}
+}{}
+
+\cvitem{Organisational / managerial skills}{During my university studies, I was a representative of the students and I organized some classical music concerts:
+	\begin{itemize}
+		\item \textit{Apocalypse with pictures} on \textit{Battistero del Duomo} in Padua
+		\item \textit{W.A. Mozart, Piano Concertos n.20 and n.24} on \textit{Church of Santa Caterina of Alessandria} in Padua
+	\end{itemize}
+}
+
+\cvitem{Driving licence}{Full current clean driving licence}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Hobbies and Interests}
+
+\cventry{2009 -- 2015}{Volunteerism}{OIC Rest home}{Padua}{}{}
+\cvitem{Hobbies}{Bakery, Backpacking, Cinema, Classical music}
+
+\end{document}
